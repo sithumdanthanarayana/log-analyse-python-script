@@ -3,11 +3,17 @@
 **Threat Report Summary based on firewall log report.**
 
 Date: 2023-03-15
+
 Time: 06:26:45 - 06:35:27
+
 Source IP: 192.168.1.105-192.168.1.106-192.168.1.108-192.168.1.110-192.168.1.112
+
 Destination IP: 192.168.1.255-203.0.113.5-198.51.100.24-203.0.113.10-10.10.10.10-192.168.1.230
+
 Protocols: UDP, TCP, ICMP
-Ports: 138, 44347, 22, 44348, 80, 44350, 1433, 44353, 161,
+
+Ports: 138, 44347, 22, 44348, 80, 44350, 1433, 44353, 161
+
 Info: Local Broadcast, SSH Attempt, Client Hello, SQL Server Access Attempt, Destination Unreachable, SNMP Access Attempt
 
 **Summary:**
@@ -27,11 +33,17 @@ The ABC firewall detected six potential threats on 2023-03-15 between 06:26:45 a
 
 
 **Recommendations:**
-•	Block all traffic from the source IP address, 192.168.1.105-192.168.1.112.
+•	Block all traffic from the source IP address, 192.168.1.105-192.168.1.106-192.168.1.108-192.168.1.110-192.168.1.112
+
 •	Investigate the source IP address to determine the source of the threats.
+
 •	Update all software and firmware on the network to the latest versions.
+
 •	Implement a security information and event management (SIEM) system to monitor network traffic for suspicious activity.
+
 •	Consider using a network intrusion detection system (NIDS) to detect and block malicious traffic.
+
 •	Implement a network access control (NAC) system to restrict access to the network to authorized users and devices.
+
 •	Conduct regular security audits to identify and mitigate security vulnerabilities.
 
